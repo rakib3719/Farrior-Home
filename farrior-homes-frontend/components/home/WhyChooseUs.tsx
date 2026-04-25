@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
             key={idx}
             className='flex flex-col items-center justify-center text-center'>
             <div className='w-14 h-14 bg-white rounded-full flex items-center justify-center mb-6 md:mb-8'>
-              <item.icon className='w-14 h-14 text-(--primary) bg-[#A3C7B3] rounded-full p-3.75 font-normal' />
+              <item.icon className='w-14 h-14 text-[#005163] bg-[#a8aeaf] rounded-full p-3.75 font-normal' />
             </div>
 
             <Title
