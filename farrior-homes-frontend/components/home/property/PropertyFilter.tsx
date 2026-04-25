@@ -177,7 +177,7 @@ export default function PropertyFilter({ value, onChange, onClear }: PropertyFil
                   maxPrice: Math.max(Number(e.target.value), value.minPrice),
                 })
               }
-              className='w-full accent-[#619B7F]'
+              className='w-full accent-[#005163]'
             />
           </div>
           <div className='grid grid-cols-2 gap-2'>

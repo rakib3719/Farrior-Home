@@ -195,7 +195,7 @@ export default function Location({
           <div className='mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2'>
             <button
               onClick={() => searchRef.current?.querySelector("input")?.focus()}
-              className='px-4 py-3 bg-[#619B7F] text-white rounded-lg hover:bg-[#4a7b63] transition flex items-center justify-center gap-2'
+              className='px-4 py-3 bg-(--primary) text-white rounded-lg hover:bg-[#003f4d] transition flex items-center justify-center gap-2'
             >
               <Search size={18} />
               Search Address
@@ -318,7 +318,7 @@ export default function Location({
           <div className='flex justify-center gap-3'>
             <button
               onClick={() => searchRef.current?.querySelector('input')?.focus()}
-              className='px-4 py-2 bg-[#619B7F] text-white rounded-md hover:bg-[#4a7b63] transition'
+              className='px-4 py-2 bg-(--primary) text-white rounded-md hover:bg-[#003f4d] transition'
             >
               Search Address
             </button>
