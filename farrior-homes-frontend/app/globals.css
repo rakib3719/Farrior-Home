@@ -2,45 +2,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f1f3f4;
+  --foreground: #091a2b;
 
-  /* Primary Colors */
-  --primary: #619b7f;
-  --primary-light: #3b82f6;
-  --primary-dark: #1e3a8a;
-  --primary-hover: #2e7955;
+  /* ================= PRIMARY ================= */
+  --primary: #005163; /* Main brand color */
+  --primary-light: #3b4876;
+  --primary-dark: #091a2b;
+  --primary-hover: #003f4d;
 
-  /* Primary Text Colors */
-  --primary-text-color: #1b1b1a;
-  /* Secondary Colors */
-  --secondary: #dc2626;
-  --secondary-light: #ef4444;
-  --secondary-dark: #991b1b;
 
-  /* Button Colors */
-  --button-bg: #1e40af;
-  --button-hover: #3b82f6;
+  /* Primary Text */
+  --primary-text-color: #091a2b;
+
+  /* ================= SECONDARY ================= */
+  --secondary: #3b4876;
+  --secondary-light: #6b7396;
+  --secondary-dark: #2c3558;
+
+  /* ================= BUTTON ================= */
+  --button-bg: var(--primary);
+  --button-hover: var(--primary-hover);
   --button-text: #ffffff;
 
-  /* Accent Colors */
-  --accent: #f59e0b;
-  --accent-light: #fbbf24;
-  --accent-dark: #d97706;
+  /* ================= ACCENT ================= */
+  --accent: #a8aeaf;
+  --accent-light: #c4c9ca;
+  --accent-dark: #7f8788;
 
-  /* Neutral Colors */
-  --neutral-50: #f9fafb;
-  --neutral-100: #f3f4f6;
-  --neutral-200: #e5e7eb;
-  --neutral-300: #d1d5db;
+  /* ================= NEUTRAL ================= */
+  --neutral-50: #f1f3f4;
+  --neutral-100: #e5e7eb;
+  --neutral-200: #d1d5db;
+  --neutral-300: #a8aeaf;
   --neutral-400: #9ca3af;
   --neutral-500: #6b7280;
   --neutral-600: #4b5563;
-  --neutral-700: #374151;
-  --neutral-800: #1f2937;
-  --neutral-900: #111827;
+  --neutral-700: #3b4876;
+  --neutral-800: #091a2b;
+  --neutral-900: #020617;
 
-  /* Fonts */
+  /* ================= FONTS ================= */
   --font-heading: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
   --font-display: "Jost", sans-serif;
@@ -53,7 +55,8 @@ body {
   font-family: var(--font-body);
 }
 
-/* Font Family Classes */
+/* ================= FONT CLASSES ================= */
+
 .font-playfair {
   font-family: "Playfair Display", serif;
 }
@@ -66,80 +69,47 @@ body {
   font-family: "Jost", sans-serif;
 }
 
-/* Abhaya Libre - used selectively */
+/* Abhaya Libre */
 .abhaya-libre-regular {
   font-family: var(--font-abhaya, "Abhaya Libre"), serif;
   font-weight: 400;
-  font-style: normal;
 }
 
 .abhaya-libre-medium {
   font-family: var(--font-abhaya, "Abhaya Libre"), serif;
   font-weight: 500;
-  font-style: normal;
 }
 
 .abhaya-libre-semibold {
   font-family: var(--font-abhaya, "Abhaya Libre"), serif;
   font-weight: 600;
-  font-style: normal;
 }
 
 .abhaya-libre-bold {
   font-family: var(--font-abhaya, "Abhaya Libre"), serif;
   font-weight: 700;
-  font-style: normal;
 }
 
 .abhaya-libre-extrabold {
   font-family: var(--font-abhaya, "Abhaya Libre"), serif;
   font-weight: 800;
-  font-style: normal;
 }
 
-/* Font Weight Classes for Jost */
-.jost-300 {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
+/* Jost Weights */
+.jost-300 { font-family: "Jost", sans-serif; font-weight: 300; }
+.jost-400 { font-family: "Jost", sans-serif; font-weight: 400; }
+.jost-500 { font-family: "Jost", sans-serif; font-weight: 500; }
+.jost-600 { font-family: "Jost", sans-serif; font-weight: 600; }
+.jost-700 { font-family: "Jost", sans-serif; font-weight: 700; }
 
-.jost-400 {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+/* ================= QUILL SUPPORT ================= */
+.ql-size-small { font-size: 0.85em; }
+.ql-size-large { font-size: 1.5em; }
+.ql-size-huge { font-size: 2.2em; }
 
-.jost-500 {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.jost-600 {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.jost-700 {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-/* Quill size class support for details page */
-.ql-size-small {
-  font-size: 0.85em;
-}
-.ql-size-large {
-  font-size: 1.5em;
-}
-.ql-size-huge {
-  font-size: 2.2em;
-}
+/* #091a2b	(9,26,43)
+#005163	(0,81,99)
+#3b4876	(59,72,118)
+#a8aeaf	(168,174,175)
+#f1f3f4	(241,243,244)
+  */
