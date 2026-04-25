@@ -115,7 +115,7 @@ export default function NavbarClient({ initialAuthState }: NavbarClientProps) {
 
                 <Link
                   href='/signup'
-                  className='px-6 py-2.5 rounded-md bg-[#5B8C7E] text-white text-xl hover:bg-[#4a7365] transition-colors duration-200 shadow-sm'>
+                  className='px-6 py-2.5 rounded-md bg-[#005163] text-white text-xl hover:bg-[#003f4d] transition-colors duration-200 shadow-sm'>
                   Sign up
                 </Link>
               </>

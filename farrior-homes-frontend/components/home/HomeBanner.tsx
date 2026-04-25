@@ -46,7 +46,7 @@ const HomeBanner = () => {
                 className='
                   inline-flex items-center justify-center
                   px-8 py-4 rounded-lg
-                  bg-(--primary) hover:bg-emerald-700
+                  bg-(--primary) hover:bg-[#003f4d]
                   text-white text-lg md:text-xl
                   transition-colors duration-200
                   shadow-md hover:shadow-lg min-w-10
