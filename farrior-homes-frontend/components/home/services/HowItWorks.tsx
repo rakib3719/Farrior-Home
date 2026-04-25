@@ -25,7 +25,7 @@ export default function HowItWorks() {
   ];
   return (
     <div>
-      <div className='bg-[#A3C7B3] text-center py-12 md:px-35 mt-8'>
+      <div className='bg-[#a8aeaf] text-center py-12 md:px-35 mt-8'>
         <Title
           title={"How It Works"}
           titleClass={"text-4xl  md:text-[64px]"}

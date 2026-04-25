@@ -39,8 +39,8 @@ const SubscriptionButton: React.FC<SubscriptionButtonProps> = ({
         className={`w-full mt-4 px-6 py-2 text-xl border border-[#D1CEC6] rounded-md transition-colors duration-200
         ${
           status === "active"
-            ? "bg-white text-[#0F3B2A] hover:bg-[#0F3B2A] hover:text-white"
-            : "bg-[#0F3B2A] hover:bg-[#226142] text-white"
+            ? "bg-white text-[#0F3B2A] hover:bg-[#003f4d] hover:text-white"
+            : "bg-[#003f4d] hover:bg-[#003f4d] text-white"
         }
         ${isPending || disabled ? "cursor-not-allowed opacity-70" : "cursor-pointer"}
         `}>

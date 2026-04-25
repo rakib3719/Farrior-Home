@@ -6,7 +6,7 @@ const PageTitle: React.FC<pageTitle> = (props) => {
   const { title, subtitle } = props;
 
   return (
-    <div className='bg-[#619B7F] text-center py-20'>
+    <div className='bg-(--primary) text-center py-20'>
       <Title
         title={title}
         titleClass='text-5xl md:text-[64px] text-white'
