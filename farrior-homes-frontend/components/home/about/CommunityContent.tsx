@@ -38,8 +38,8 @@ export default function CommunityContent() {
           {/* Left Content */}
           <div className='flex flex-col justify-center cols-span-1 md:col-span-4'>
             <div className='flex items-center gap-3  bg-[#F4F8F6] w-max px-3 py-1 rounded-full'>
-              <div className='w-2 h-2 rounded-full bg-[#5A7B6C]'></div>
-              <p className='text-[#5A7B6C] text-sm font-medium'>
+              <div className='w-2 h-2 rounded-full bg-[#005163]'></div>
+              <p className='text-[#005163] text-sm font-medium'>
                 Why Choose Us
               </p>
             </div>

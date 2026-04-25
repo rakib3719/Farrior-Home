@@ -17,7 +17,7 @@ export default function page() {
       <ClientSatisfaction />
       <CommunityContent />
       <OfferContent />
-      <div className='bg-[#619B7F] text-center py-14 md:py-20 p-4'>
+      <div className='bg-[#005163] text-center py-14 md:py-20 p-4'>
         <Title
           title={"Crafting Your Ideal Home for a Better Tomorrow"}
           titleClass='text-3xl md:text-[48px] text-white max-w-[700px] mx-auto pb-5'
